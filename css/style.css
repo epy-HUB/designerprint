@@ -1,0 +1,67 @@
+body {
+    background-image: url("../img/bg.png");
+    background-color: #ac2025;
+
+     /* Full height */
+     height: 100%; 
+
+     /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+#navigation, .navbar .navbar-default{
+    background: linear-gradient(to right,#842e6b,#ee2224,#f36d21,#f8d21a); 
+    border-color: rgba(255,255,255,0);
+    border-radius: 0;    
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a{
+    color: white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color: white;
+    background-color: transparent;
+    -moz-box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+    box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4); 
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: white;
+    background-color: transparent;
+    -moz-box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+    box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4); 
+}
+
+@media only screen and (min-width : 768px) {
+    
+    #navigation, .navbar .navbar-default{
+        background-image: url("../img/navbar.png");
+        border: none;
+        border-radius: 0; 
+        width: 100%;
+        height: 62px;
+        color: white;
+        background-position: right;
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+    }
+}
+
+
+
+
+
+#main{
+    position: relative;
+    width: 100%;
+    padding: 30px;
+    /* height: 500px; */
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 10px;
+    border: 10px  solid rgba(255, 0, 0, .6);
+}
