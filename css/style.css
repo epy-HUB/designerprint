@@ -117,4 +117,52 @@ body {
 }
 
 
+.cuadro_intro_hover{
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+.cuadro_intro_hover:hover .caption{
+    opacity: 1;
+    transform: translateY(-250px);
+    -webkit-transform:translateY(-250px);
+    -moz-transform:translateY(-250px);
+    -ms-transform:translateY(-250px);
+    -o-transform:translateY(-250px);
+}
+.cuadro_intro_hover img{
+    z-index: 4;
+}
+.cuadro_intro_hover .caption{
+    position: absolute;
+    top: 250px;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    -ms-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+    width: 100%;
+}
+.cuadro_intro_hover .blur{
+    background-color: rgba(0,0,0,0.7);
+    height: 300px;
+    z-index: 5;
+    position: absolute;
+    width: 100%;
+}
+.cuadro_intro_hover .caption-text{
+    z-index: 10;
+    color: #fff;
+    position: absolute;
+    height: 300px;
+    text-align: center;
+    top:-20px;
+    width: 100%;
+}
+
+.gap{
+    margin-bottom: 25px;
+}
+
 
